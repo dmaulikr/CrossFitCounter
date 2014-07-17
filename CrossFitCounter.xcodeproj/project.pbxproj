@@ -21,6 +21,8 @@
 		8567D9931964C98700E123AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8567D9751964C98600E123AE /* UIKit.framework */; };
 		8567D99B1964C98700E123AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8567D9991964C98700E123AE /* InfoPlist.strings */; };
 		8567D99D1964C98700E123AE /* CrossFitCounterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8567D99C1964C98700E123AE /* CrossFitCounterTests.m */; };
+		858F2CD6196A2206008A356B /* PMNOopsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 858F2CD5196A2206008A356B /* PMNOopsViewController.m */; };
+		85FA361F196745D9002E1DD1 /* blank-button-template.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 85FA361E196745D9002E1DD1 /* blank-button-template.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		8567D9981964C98700E123AE /* CrossFitCounterTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CrossFitCounterTests-Info.plist"; sourceTree = "<group>"; };
 		8567D99A1964C98700E123AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8567D99C1964C98700E123AE /* CrossFitCounterTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CrossFitCounterTests.m; sourceTree = "<group>"; };
+		858F2CD4196A2206008A356B /* PMNOopsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PMNOopsViewController.h; sourceTree = "<group>"; };
+		858F2CD5196A2206008A356B /* PMNOopsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PMNOopsViewController.m; sourceTree = "<group>"; };
+		85FA361E196745D9002E1DD1 /* blank-button-template.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "blank-button-template.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,8 @@
 				8567D9831964C98600E123AE /* Main.storyboard */,
 				8567D9861964C98600E123AE /* PMNViewController.h */,
 				8567D9871964C98600E123AE /* PMNViewController.m */,
+				858F2CD4196A2206008A356B /* PMNOopsViewController.h */,
+				858F2CD5196A2206008A356B /* PMNOopsViewController.m */,
 				8567D9891964C98600E123AE /* Images.xcassets */,
 				8567D9781964C98600E123AE /* Supporting Files */,
 			);
@@ -129,6 +136,7 @@
 				8567D9791964C98600E123AE /* CrossFitCounter-Info.plist */,
 				8567D97A1964C98600E123AE /* InfoPlist.strings */,
 				8567D97D1964C98600E123AE /* main.m */,
+				85FA361E196745D9002E1DD1 /* blank-button-template.jpg */,
 				8567D97F1964C98600E123AE /* CrossFitCounter-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -230,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8567D98A1964C98600E123AE /* Images.xcassets in Resources */,
+				85FA361F196745D9002E1DD1 /* blank-button-template.jpg in Resources */,
 				8567D97C1964C98600E123AE /* InfoPlist.strings in Resources */,
 				8567D9851964C98600E123AE /* Main.storyboard in Resources */,
 			);
@@ -251,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8567D9821964C98600E123AE /* PMNAppDelegate.m in Sources */,
+				858F2CD6196A2206008A356B /* PMNOopsViewController.m in Sources */,
 				8567D97E1964C98600E123AE /* main.m in Sources */,
 				8567D9881964C98600E123AE /* PMNViewController.m in Sources */,
 			);
@@ -457,6 +467,7 @@
 				8567D9A21964C98700E123AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8567D9A31964C98700E123AE /* Build configuration list for PBXNativeTarget "CrossFitCounterTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				8567D9A51964C98700E123AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
